@@ -3,13 +3,12 @@ import {
   Mail,
   Phone,
   MapPin,
-  Github,
-  Linkedin,
   ArrowUpRight,
   Menu,
   X,
   Terminal,
 } from 'lucide-react';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const skillGroups = [
   {
@@ -717,7 +716,7 @@ export default function Portfolio() {
               <Mail size={15} /> Email me
             </a>
             <a className="btn btn-outline" href="https://www.linkedin.com/in/tarran-chawla-780076359/" target="_blank" rel="noreferrer">
-              <Linkedin size={15} /> LinkedIn <ArrowUpRight size={14} />
+              <FaLinkedin size={15} /> LinkedIn <ArrowUpRight size={14} />
             </a>
           </div>
           <div className="hero-meta">
@@ -865,7 +864,7 @@ export default function Portfolio() {
                 <Phone size={15} /> +91 70397 16277
               </a>
               <a className="contact-btn" href="https://www.linkedin.com/in/tarran-chawla-780076359/" target="_blank" rel="noreferrer">
-                <Linkedin size={15} /> LinkedIn
+                <FaLinkedin size={15} /> LinkedIn
               </a>
             </div>
           </Reveal>
@@ -877,7 +876,7 @@ export default function Portfolio() {
           <span>© 2026 Tarran Chawla — Mumbai, India</span>
           <a href="https://www.linkedin.com/in/tarran-chawla-780076359/" target="_blank" rel="noreferrer">
             <span style={{ display: 'inline-flex', alignItems: 'center', gap: 6 }}>
-              <Github size={13} /> Built with React
+              <FaGithub size={13} /> Built with React
             </span>
           </a>
         </div>
